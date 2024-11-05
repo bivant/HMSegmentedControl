@@ -184,6 +184,13 @@ typedef NS_ENUM(NSInteger, HMSegmentedControlImagePosition) {
 @property (nonatomic) CGFloat textImageSpacing;
 
 /**
+ Specifies the offset for the text. Only applicable for HMSegmentedControlTypeText
+ 
+ Default is `0,0`
+ */
+@property (nonatomic) CGFloat textVerticalOffset;
+
+/**
  Specifies the border color.
  
  Default is `[UIColor blackColor]`
